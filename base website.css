@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-old {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*typography*/
+
+.title {
+    font-size: 3.5rem;
+    padding-top:6rem;
+}
+
+.title li {
+    font-weight: 300;
+    display: inline-block;
+    font-size: 0.5em;
+    padding: 2rem;
+}
+
+@media (min-width: 60rem) {
+    .title{
+        font-size: 4rem;
+    }
+}
+
+/*buttons*/
+
+.button {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.5em;
+}
+
+.button-accent {
+    color: #00aa6c; /*00ab6c*/
+    border-color: #00aa6c;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    background: #00aa6c;
+    color: #232323;
+}
+
+@media (min-width: 60rem) {
+    .button {
+        font-size: 1.5rem;
+    }
+}
+
+/* header */
+header {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 1em;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display:inline-block;
+    margin: 1em;
+}
+
+nav a{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+    color: #000;
+    /* background: red; */
+}
+
+nav a:hover,
+nav a:focus {
+    color: #00aa6c;
+}
+
+@media (min-width: 60rem) {
+    .logo{
+        float:left;
+    }
+
+    nav{
+        float:right;
+    }
+}
+
+/* home hero */
+.home-hero {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/japan2.png);
+    padding: 5em 0;
+}
+
+@media (min-width: 60rem) {
+    .home-hero{
+        height:100vh;
+    }
+}
+
+/* about section */
+
+.home-about{
+    background-color: #00aa6c;
+    background-size: cover;
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    height: 70vh;
+    color: white;
+    float:none;
+}
+
+.home-about-textbook{
+    
+    max-width: 60rem;
+    display: block;
+    margin: 0 auto;
+    float:none;
+}
+.leftphoto {
+    max-width: 20rem;
+    float: left;
+    padding: 2rem;
+}
+
+.about-desc {
+    max-width: 35rem;
+    text-align: left;
+    float: right;
+}
+
+/*portfolio*/
+
+.portfolio{
+    text-align: left;
+    display:block;
+    margin: 0 auto;
+    width:80rem;
+    padding: 0.2rem;
+}
+
+.portfolio h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    max-height: 15rem;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.description-left{
+    width:30em;
+    float:left;
+    text-align: left;
+    height: 85vh;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.description-left p{
+    float:right;
+    max-width: 30rem;
+}
+.description-left h1{
+    max-width: 40rem;
+    right: 40rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.gallery-right {
+    max-width: 40rem;
+    float: right;
+    height: 85vh;
+}
+
+.description-right h1{
+    max-width: 40rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.description-right{
+    width:30em;
+    float:right;
+    text-align: left;
+    height: 85vh;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.description-right p{
+    float:left;
+    max-width: 30rem;
+}
+.gallery-left {
+    max-width: 40rem;
+    float: left;
+    height: 85vh;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row-right {
+    float:left;
+    max-width:40rem;
+}
+.row-left {
+    float:right;
+    max-width:40rem;
+}
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container-right {
+    float:left;
+    max-width:40rem;
+    position: relative;
+    display: none;
+}
+.container-left {
+    float:right;
+    max-width:40rem;
+    position: relative;
+    display: none;
+}
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+footer {
+    
+    float:left;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background-color:#dadada;
+}
+footer li{
+    display: inline-block;
+    margin: 0 auto;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+footer img{
+    text-align: center;
+    max-width:6rem;
+}
+
+.col-1{
+    max-width: 30rem;
+    display:block;
+    margin: 0 auto;
+}
