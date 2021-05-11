@@ -11,12 +11,11 @@
 
     <body>
         <header>
-            <img src = "C:\Users\shawn\Pictures\emotes\1.png" alt = "header pic" class= "logo">
             <nav>
                 <ul>
-                    <li><a href = "">Home</a></li>
-                    <li><a href = "">About</a></li>
-                    <li><a href = "">Contact</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                    <li><a href = "#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,12 +29,12 @@
                         <li>Electrical Engineering</li>
                     </ul>
                 </h1>
-                <a href = "" class = "button button-accent"> more about me!</a>
+                <a href = "#about" class = "button button-accent"> more about me!</a>
             </div>
         </section>
 
-        <section class="home-about">
-            <div class = "home-about-textbook">
+        <section class="home-about"  id = 'about'>
+            <div class = "home-about-textbook" >
                 <h1>About</h1>
                 <img src='./img/shawn.jpg' class = 'leftphoto'>
                 
@@ -51,7 +50,7 @@
         </section>
 
 
-        <section class='portfolio'>
+        <section class='portfolio', id = 'projects'>
             <h1>PROJECTS & EXPERIENCE</h1>
 
             <div class = 'description-left'>
@@ -213,7 +212,7 @@
         </section>
 
         <footer>
-            <div class = 'col-3'>
+            <div class = 'col-3' id= 'contact'>
                 <p>Contact me:</p>
             </div>
 
