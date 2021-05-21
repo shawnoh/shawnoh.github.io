@@ -50,6 +50,7 @@ img {
     text-transform: uppercase;
     border-width: 2px;
     border-style: solid;
+    color: #ffffff;
     padding: .5em 1.5em;
 }
 
@@ -118,7 +119,7 @@ nav a:focus {
 .home-hero {
     background-size: cover;
     background-position: center;
-    background-image: url(./img/japan2.png);
+    background-image: url(./img/tower4.png);
     padding: 5em 0;
 }
 
@@ -137,7 +138,7 @@ nav a:focus {
     font-size: 1.5rem;
     display: block;
     margin: 0 auto;
-    height: 70vh;
+    height: 85vh;
     color: white;
     float:none;
 }
@@ -171,7 +172,7 @@ nav a:focus {
     padding: 0.2rem;
 }
 
-.portfolio h1 {
+h1 {
     text-align: center;
     font-weight: 700;
     font-size: 3rem;
@@ -195,6 +196,10 @@ nav a:focus {
     opacity: 1;
 }
 
+
+h2{
+    text-align: center;
+}
 .description-left{
     width:30em;
     float:left;
@@ -208,22 +213,10 @@ nav a:focus {
     float:right;
     max-width: 30rem;
 }
-.description-left h1{
-    max-width: 40rem;
-    right: 40rem;
-    font-weight: 700;
-    font-size: 2rem;
-}
 .gallery-right {
     max-width: 40rem;
     float: right;
     height: 85vh;
-}
-
-.description-right h1{
-    max-width: 40rem;
-    font-weight: 700;
-    font-size: 2rem;
 }
 .description-right{
     width:30em;
@@ -310,7 +303,26 @@ footer img{
 }
 
 .col-1{
-    max-width: 30rem;
+    max-width: 80rem;
     display:block;
     margin: 0 auto;
+}
+
+.contact-left{
+    width: 40rem;
+    float:left;
+    height:12rem;
+}
+.contact-left-inner{
+    width:25rem;
+    float:right;
+}
+.contact-right{
+    float:right;
+    height:12rem;
+    width:40rem;
+}
+.contact-right-inner{
+    float:left;
+    width:25rem;
 }
