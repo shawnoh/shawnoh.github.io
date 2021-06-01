@@ -54,6 +54,17 @@ img {
     padding: .5em 1.5em;
 }
 
+.button-link {
+    display: inline-block;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    color: #000000;
+    text-decoration: none;
+    padding: .5em 1.5em;
+}
+
 .button-accent {
     color: #00aa6c; /*00ab6c*/
     border-color: #00aa6c;
@@ -138,7 +149,7 @@ nav a:focus {
     font-size: 1.5rem;
     display: block;
     margin: 0 auto;
-    height: 85vh;
+    height: 90vh;
     color: white;
     float:none;
 }
@@ -170,6 +181,7 @@ nav a:focus {
     margin: 0 auto;
     width:80rem;
     padding: 0.2rem;
+    height: 380vh;
 }
 
 h1 {
@@ -325,4 +337,46 @@ footer img{
 .contact-right-inner{
     float:left;
     width:25rem;
+}
+
+.links{
+    float:left;
+    background-image: url("./img/nodes_whiter.png");
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    width: 100%;
+}
+
+.link-outer{
+    display:block;
+    margin: 0 auto;
+    width: 80rem;
+}
+
+.link-inner-left{
+    background-color: white;
+    background-image: url("./img/gradient3.jpg");
+    background-size: cover;
+    background-position: center;
+    float:left;
+    width:40rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 15rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.link-inner-right{
+    background-image: url("./img/gradient4.jpg");
+    background-size: cover;
+    background-position: center;
+    float:right;
+    margin: auto;
+    width:40rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 15rem;
 }
