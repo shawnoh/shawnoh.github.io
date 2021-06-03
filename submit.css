@@ -149,7 +149,7 @@ nav a:focus {
     font-size: 1.5rem;
     display: block;
     margin: 0 auto;
-    height: 90vh;
+    height: 45rem;
     color: white;
     float:none;
 }
@@ -181,7 +181,7 @@ nav a:focus {
     margin: 0 auto;
     width:80rem;
     padding: 0.2rem;
-    height: 380vh;
+    height: 175rem;
 }
 
 h1 {
@@ -216,7 +216,7 @@ h2{
     width:30em;
     float:left;
     text-align: left;
-    height: 90vh;
+    height: 40rem;
     padding: 2rem;
     font-size: 1.2rem;
 }
@@ -228,13 +228,13 @@ h2{
 .gallery-right {
     max-width: 40rem;
     float: right;
-    height: 90vh;
+    height: 40rem;
 }
 .description-right{
     width:30em;
     float:right;
     text-align: left;
-    height: 85vh;
+    height: 40rem;
     padding: 2rem;
     font-size: 1.2rem;
 }
@@ -246,7 +246,7 @@ h2{
 .gallery-left {
     max-width: 40rem;
     float: left;
-    height: 85vh;
+    height: 40rem;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -344,7 +344,7 @@ footer img{
     background-image: url("./img/nodes_whiter.png");
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: 60rem;
     width: 100%;
 }
 
