@@ -188,6 +188,7 @@ h1 {
     text-align: center;
     font-weight: 700;
     font-size: 3rem;
+    text-transform: uppercase;
 }
 
 /* The grid: Four equal columns that floats next to each other */
@@ -301,7 +302,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    background-color:#dadada;
+    background-color:#eeeeee;
 }
 footer li{
     display: inline-block;
@@ -337,6 +338,42 @@ footer img{
 .contact-right-inner{
     float:left;
     width:25rem;
+}
+
+.critique h1{
+    color: white;
+}
+
+.critique{
+    float:left;
+    color:white;
+    width:100%;
+    height:80rem;
+    background-color: #00aa6c;
+}
+.article-picture{
+    float: right;
+    max-width: 35rem;
+    padding: 2rem;
+}
+
+.article-picture-2{
+    float:left;
+    max-width:25rem;
+    padding:2rem;
+}
+.critique-inner{
+    background-color: #00aa6c;
+    display: block;
+    margin: 0 auto;
+    max-width: 60rem;
+    font-size: 20px;
+}
+.critique-inner-inner p{
+    float:left;
+    text-align: left;
+    line-height: 1.8;
+    padding: .5rem;
 }
 
 .links{
